@@ -1,0 +1,1130 @@
+body{
+    text-align: center;
+}
+.borda{}
+.principal{}
+
+
+.separador{
+    min-height: 100px;
+}
+#nm-top{
+    position: fixed;
+    text-align: center;
+    color: #c2995d;
+    opacity: .5;
+    margin-top: 100px;
+    margin-left: 100px;
+    z-index: 1001;
+    
+}
+#nm-top:hover{
+    color: black;
+}
+/*navbar*/
+
+nav.navbar.navbar-default{
+	background-color: transparent;
+	border-color:transparent;
+	text-align: right;
+	width: 100%;
+}
+ul.nav.navbar-nav.navbar-right > li, li:active{
+	width: 100%;
+}
+
+li:active{
+    background-color: transparent;
+}
+ul.nav.navbar-nav.navbar-right > li, li:hover{
+    color: #c2995d;
+}
+ul.nav.navbar-nav.navbar-right > li > a > span{
+	color: white;
+}
+
+@media (max-width: 991px) {
+    nav.navbar.navbar-default{
+	background-color: transparent;
+	border-color:transparent;
+	text-align: right;
+	width: 100%;
+    }
+    ul.nav.navbar-nav.navbar-right > li, li:active{
+        width: 100%;
+    }
+    
+    li:active{
+        background-color: transparent;
+    }
+    ul.nav.navbar-nav.navbar-right > li, li:hover{
+        color: black;
+    }
+    ul.nav.navbar-nav.navbar-right > li > a > span{
+        color: black;
+    }
+}
+/*Force to colapse 
+@media (max-width: 991px) {
+  .navbar-header {
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+  }
+  .navbar-nav {
+      float: none!important;
+      margin-top: 7.5px;
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+  }
+}*/
+
+/*
+@media (min-width: 768px){//1440 1080 768px 480
+    .navbar-nav>li {
+        float: left;
+    }
+}*/
+
+/* Sections na sequencia*/
+.nm-subFundo{
+    position: absolute;
+    z-index: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+.enf-centro{
+    background-color:#c2995d;
+    position :absolute;
+    width:60px;
+    height:20px;
+}
+
+.session_conteiner{
+    
+}
+
+div.logo{
+	color: white;/*
+              
+	width:100%;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-weight: 300;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	text-align: center;*/
+}
+.section_tit{
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size: 75px;
+}
+.tittle-noiva{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -25px;
+    font-size: 45px;
+}
+.tittle-modas{
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-top: -19px;
+    font-size: 25px;
+}
+.tittle-atelie{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size: 35px;
+}
+.section_subConteiner{}
+
+#home-cont{
+    font-size: 30px;
+    text-align: right; 
+    margin-top:140px; 
+    color: white;
+}
+#home-cont i{
+    font-family: "Alex Brush";
+    font-weight: bold;
+    font-size:50px;
+    color: #c2995d;
+}
+
+#home-img-principal{
+    margin-left: -30px;
+}
+
+.home-noiva{
+    font-size: 60px;
+}
+.home-modas{
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+
+div.p{
+    font-size:26px;
+}
+@media (max-width: 991px) {
+    
+    .section_tit{
+    }
+    .tittle-noiva{
+        margin-top: -25px;
+        font-size: 45px;
+    }
+    .tittle-modas{
+        margin-top: px;
+    }
+    .tittle-atelie{
+        font-size: 35px;
+    }
+    #home-cont{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #home-cont i{
+        font-family: "Alex Brush";
+        font-weight: bold;
+        font-size:50px;
+        color: #c2995d;
+    }
+    
+    #home-img-principal{
+        margin-left: -30px;
+    }
+    
+    .home-noiva{
+        font-size: 60px;
+    }
+    .home-modas{
+        font-size: 30px;
+        margin-top: -20px;
+    }
+}
+
+
+
+#nm-anm{
+    
+}
+#anm-tit{
+    margin-top: -30px;
+    margin-left: 190px;
+    color: #c2995d;
+    font-family: 'Alex Brush';
+    font-size:72px;
+}
+#anm-cont1{
+    text-align: right;
+    background-color:#ededed;
+    padding: 10px;
+}
+anm-cont2{
+    text-align: justify;
+    background-color:#ededed;
+    padding: 10px;
+}
+#h-enf{
+    position: absolute;
+    margin-left: -310px;
+    margin-top: -300px;
+}
+#anm-img1{
+    margin-top: -40px;
+    text-align: right;
+}
+#anm-img2{
+    margin-top: 15px;
+}
+
+@media (max-width: 991px) {
+    #anm-tit{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #anm-cont1{
+        text-align: center;
+        padding: 10px;
+    }
+    anm-cont2{
+        padding: 10px;
+    }    
+    #h-enf{
+        margin-left: -340px;
+        margin-top: -300px;
+    }
+    #anm-img1{
+        margin-top: 0px;
+        text-align: center;
+    }   
+    #anm-img2{
+        margin-top: 0px;
+    }
+}
+
+
+.noiva-img{
+    
+} 
+#noiva_conteiner{
+    text-align: right;
+    position:absolute;
+    z-index:100;
+    margin-right: -45px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+#noiva_tit{
+    margin-top:10px;
+    color: #c2995d;
+}
+#noiva_subcont1{
+    margin-top: 30px;
+    color:#c2995d;
+}
+#noiva_link{
+    background-color: white;
+    color:#c2995d;
+    margin-top: -220px;
+    margin-left: -400px;
+    position: absolute;
+}
+#noiva-fotos{
+    
+}
+#noiva-foto1{
+    position:absolute;
+    z-index:10;
+}
+#noiva-foto2{
+    position:absolute;
+    z-index:20;
+    margin-top: 0px;
+}
+
+@media (max-width: 991px) {
+    
+    #noiva_conteiner{
+        text-align: right;
+        position: relative;
+        z-index:100;
+        font-size: 20px;
+    }
+    #noiva_tit{
+        margin-top:10px;
+        color: #c2995d;
+    }
+    #noiva_subcont1{
+        margin-top: 30px;
+        color:#c2995d;
+    }
+    #noiva-fotos{
+        margin-left: 100px;
+    }
+    #noiva-foto1{
+        position:absolute;
+        z-index:10;
+    }
+    #noiva-foto2{
+        position:absolute;
+        z-index:20;
+        margin-top: 0px;
+    }
+    #noiva_link{
+        position: static;
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-left: -30px;
+        z-index: 101;
+    }
+}
+
+@media (max-width: 752px) {
+    #noiva_conteiner{
+        text-align: center;
+        position: relative;
+        z-index:100;
+        font-size: 20px;
+    }
+    #noiva_tit{
+        margin-top:10px;
+        color: #c2995d;
+    }
+    #noiva_subcont1{
+        margin-top: 30px;
+        color:#c2995d;
+    }
+    #noiva-fotos{
+        margin-left: 100px;
+    }
+    #noiva-foto1{
+        z-index:10;
+    }
+    #noiva-foto2{
+        z-index:20;
+        margin-top: 0px;
+    }
+    #noiva_link{
+        margin-top: -100px;
+        margin-right: 0px;
+        margin-left: -30px;
+        z-index: 101;
+    }
+}
+
+#nm-atelie{
+    text-align: center;
+}
+.atelie-cont{
+    text-align: right;
+}
+#atelie-cont1{
+    margin-top: 130px;
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+}
+#atelie-vestido{
+    margin-top: -30px;
+    text-align: left;
+    font-size: 80px;
+    font-family: "Alex Brush";
+    color: white;
+}
+#atelie-cont2{
+    margin-top: -45px;
+    margin-left: 40px;
+    text-align: justify;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+}
+#atelie-link{
+    margin-top: 20px;
+    background-color: white;
+    color:#6cada6;
+    max-width: 100px;
+    max-height: 27px;
+    padding: 0;
+}
+#atelie-link:hover{
+}
+
+
+@media (max-width: 991px) {
+    
+    #nm-atelie{
+        
+    }
+    #atelie-vestido{
+        margin-top: -45px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .atelie-cont{
+        text-align: right;
+        text-align: center;
+        max-width: 350px;
+        margin-left: 45%;
+    }
+    #atelie-cont1{
+        margin-top: 50px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    #atelie-cont2{
+        text-align: justify;
+        max-width: 300px;
+        margin-top: -30px;
+    }
+    #atelie-link{
+        margin-left: 40px;
+        max-width: 300px;
+    }
+    #atelie-link btn{
+        margin-top: 20px;
+        background-color: white;
+        color:#6cada6;
+        max-width: 100px;
+        max-height: 27px;
+        padding: 0;
+    }
+    #atelie-link:hover{
+        
+    }
+    #atelie-letra{
+        font-size: 50px;
+    }
+}
+@media (max-width: 580px) {
+    .atelie-cont{
+        text-align: center;
+        max-width: 350px;
+        margin-left: 45%;
+    }
+    #atelie-cont1{
+        margin-top: 0px;
+        padding: 10px;
+        font-size: 25px;
+    }
+    #atelie-cont2{
+        text-align: justify;
+        max-width: 300px;
+        margin-top: -30px;
+    }
+    .enf-letra-transp{
+        font-size: 30px;
+    }
+}
+
+#nm-noivos{ 
+    background-color: white;
+}
+#noivo-fundo{
+    background-color: #6b6c80;
+}
+#noivo-tit{}
+#noivos-tittle1{
+    margin-top: 50px;
+    text-align:left; 
+    color: #b1bbf0;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size:70px;
+}
+#noivos-tittle2{
+    color: #f0f2ff;
+    text-align: center;
+    font-size:30px;
+}
+#noivos-tittle3{
+    color: #f0f2ff;
+    text-align:right; 
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size:65px;
+}
+#noivo-cont{
+    color:white;
+    text-align: right; 
+    background-color:#6b6c80;
+}
+#noivo-link{
+    text-align: right; 
+    color: #b1bbf0;
+}
+#noivo-enf{
+    position:absolute;}
+#noivo-img{
+    z-index:20;
+    margin-left: 30px;
+    margin-top: -7px;
+}
+
+@media (max-width: 992px) {
+    #nm-noivos{ 
+        background-color: #6b6c80;
+    }
+    #noivos-tittle1{
+        margin-top: 20px;
+        margin-left: -100px;
+        text-align:center; 
+        font-size:70px;
+    }
+    #noivos-tittle2{
+        text-align: center;
+        font-size:30px;
+    }
+    #noivos-tittle3{
+        margin-left: 160px;
+        text-align:center; 
+        font-size:65px;
+    }
+    
+    #noivo-letra{
+        margin-top: -35px;
+    }
+    #noivo-enf{
+    }
+    #noivo-img{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+#nm-madrinhas{
+    background-color: white;
+    min-height:500px;
+}
+#madrinha-fundo{
+    background-color: #8c8761;    
+}
+#madrinha-tit{
+    
+}
+
+#madrinha-tit1{
+    text-align:left; 
+    color: #c4be86;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size:70px;
+}
+#madrinha-tit2{
+    color: #fffbdb;
+    text-align: center;
+}
+#madrinha-tit3{
+    color: #fffbdb;
+    text-align:right; 
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size:65px;
+}
+#madrinha-cont{
+}
+#madrinha-cont1{
+    margin-right:-10px;
+    color:white;
+    text-align: right; 
+    background-color:#8c8761;
+}
+#madrinha-cont2{
+    text-align: center; 
+}
+
+#madrinha-img{
+    margin-top: -5px;
+}
+#madrinha-enf{
+    position:absolute;
+    margin-top: -78px;
+    margin-left: -164px;
+}
+#madrinha-link{
+    color: #c4be86;
+}
+#madrinha-letra{
+    margin-top: -0px;
+}
+
+@media (max-width: 992px) {
+    #nm-madrinhas{
+        background-color: #8c8761;
+    }
+    #madrinha-fundo{
+        background-color: #8c8761;    
+    }
+    #madrinha-tit{
+        text-align:center; 
+    }
+    
+    #madrinha-tit1{
+        text-align: center;
+        margin-left: -90px;
+        font-size:70px;
+    }
+    #madrinha-tit2{
+        margin-top: -24px;
+        font-size: 20px;
+    }
+    #madrinha-tit3{
+        margin-left: 90px;
+        text-align: center; 
+        font-size:65px;
+    }
+    #madrinha-cont{
+        text-align: right;
+    }
+    #madrinha-cont1{
+        margin-right:-10px;
+        color:white;
+        text-align: right; 
+        background-color:#8c8761;
+        padding: 10px;
+        border: 2px solid white;
+    }
+    #madrinha-img{
+        margin-top: 0px;
+    }
+    #madrinha-enf{
+        position:absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #madrinha-link{
+        margin-top: -2px;
+    }
+    #madrinha-letra{
+        margin-top: -30px;
+        margin-left: -20px;
+    }
+}
+
+/**********************/
+/*Debutante*/
+#deb-tit{
+    margin-left:-30px; 
+    text-align:right; 
+    color: #eb949f;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size:70px;
+}
+#deb-cont1{
+    text-align:right;
+}
+#deb-enf{
+    position:absolute;
+    z-index:0;
+    left: 0;
+}
+#deb-img{
+    z-index: 3;
+}
+#deb-cont2{
+    color:#ffe0eb;
+    text-align: right; 
+    background-color:#eb949f;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 22px;
+}
+#deb-link{
+    position: absolute;
+    margin-top: -9px;
+    margin-left: -91px;
+    background-color: white;
+    color:#eb949f;
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+#deb-letra{
+    margin-top: -180px;
+}
+
+@media (max-width: 992px) {
+    #nm-debutantes{
+        background-color: #eb949f;
+    }
+    #deb-tit{
+        margin-left:0px; 
+        text-align:center; 
+        color: #eb949f;
+        font-weight: bold;
+        font-family: 'Alex Brush';
+        font-size:60px;
+    }
+    #deb-cont1{
+        text-align:right;
+    }
+    #deb-enf{
+        position:absolute;
+        z-index:0;
+        left: 0;
+    }
+    #deb-img{
+        z-index: 3;
+    }
+    #deb-cont2{
+        color:#ffe0eb;
+        text-align: right; 
+        background-color:#eb949f;
+        border: 1px solid white;
+        border-radius: 3px;
+        padding: 22px;
+    }
+    #deb-link{
+        position: absolute;
+        margin-top: -9px;
+        margin-left: -91px;
+        background-color: white;
+        color:#eb949f;
+        padding: 3px;
+        border-radius: 2px;
+        font-size: 13px;
+    }    
+    #deb-letra{  
+        margin-top: 0px;
+        margin-left: 0px;
+        color: rgba(255, 255, 255, 0.2) !important;
+    }
+}
+/****************/
+
+.tend-enf{
+    position: absolute;
+    z-index: 1;
+    margin-right: 0;
+    width: 600px;
+    height: 2px;
+    background-color: #c2995d
+}
+.tend-tit{
+    color: #c2995d;
+    font-size: 30px;
+    font-weight: bold;
+}.tend-tit-mark{}
+.tend-enf{}.tend-enf-mark{}
+.tend-img{}.tend-img-mark{}
+.tend-intro{}.tend-intro-mark{}
+.tend-href{}.tend-href-mark{}
+
+#nm-infantil{}
+#inf-tit{
+    color: white;
+    font-family: 'Alex Brush';
+    margin-top: 50px;
+}
+#inf-tit-damas{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+#inf-tit-damas > h2{
+    font-size: 50px;
+}
+#inf-tit-e{
+    margin: 0px;
+    padding: 0px;
+    margin-top: -40px;
+    margin-left: -150px;
+    font-size: 40px;
+}
+#inf-tit-pagens{
+    margin-top: -40px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+#inf-cont{
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+#inf-enf-cont1{
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 2px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    z-index: 1;
+}
+#inf-enf-cont2{
+    position: absolute;
+    background-color: black;
+    opacity: .3;
+}
+#inf-cont2{
+    color: white;
+}
+
+
+.enf-letra-transp{
+    font-family: "Alex Brush";
+    font-size: 140px;
+    
+    color: rgba(255, 255, 255, 0.3) !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.enf-letra-transp-noiva{
+    font-family: "Alex Brush";
+    font-size: 140px;
+    
+    color: rgba(255, 255, 255, 0.3) !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media (max-width: 982px) {
+    .enf-letra-transp{
+        font-size: 80px;
+    }
+    .enf-letra-transp-noiva{
+        font-size: 80px;
+    }
+}
+
+/*galeria*/
+#gale-Img-Cont{
+    height: 100%;
+    background-color: #c2995d;
+    padding: 4px;
+    border: 1px solid #c2995d;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+#gale-image{
+    max-height: 1500px;
+}
+#gale-volt{
+    margin: 5px;
+}
+#gale-avan{
+    margin: 5px;
+    
+}
+.tittle-gale-vest{
+    color: #c2995d;
+    font-weight: bold;
+    font-family: 'Alex Brush';
+    font-size: 35px;
+}
+.tittle-gale-col{
+    color: #c2995d;
+    font-size: 20px;
+}
+.gale-text{
+    color: #c2995d;
+}
+
+.cont-enf{
+    width: 140px;
+    height: 20px;
+    background-color: #c2995d;
+}
+.map-enf{
+    position: absolute;
+    width: 210px;
+    height: 100px;
+    margin-top: 150px;
+    background-color: #c2995d;
+}
+.map{
+    border: 1px solid #a3a3a3;
+}
+
+.to-animate, .to-animate-2,.to-animate-3,.to-animate-4, .single-animate {
+  opacity: 0;
+}
+/*font-awesome*/
+.fa-facebook-square{
+}
+/*boostrap*/
+.thumbnail{
+  border-color:  #c2995d; 
+}
+.btn{
+    color: #c2995d;
+    background-color: white;
+}
+.btn-primary{
+    color: white;
+    background-color: #c2995d;
+    border-color: white;
+}
+.img-thumbnail{
+    border-color: #c2995d;
+    background-color: #c2995d;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+
+/*
+.navbar-brand {
+    color: #52d3aa !important;
+  }
+#navbar li a {
+    color: rgba(0, 0, 0, 0.5) !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+#navbar li a:hover {
+    color: #52d3aa !important;
+  }
+#navbar li a span:before {
+    background: transparent !important;
+  }
+#navbar li.active a {
+    background: transparent;
+    background: none;
+    color: #52d3aa !important;
+  }
+#navbar li.active a span:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.navbar {
+    max-width: 210px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar-nav,
+.navbar-nav > li,
+.navbar-left,
+.navbar-right,
+.navbar-header, a
+{float:none !important;
+text-align: right;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+}
+
+#navbar li a {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: rgba(255, 255, 255, 1);
+  margin: 0 0 0 0;
+  padding-top: 2px;
+  position: relative;
+  font-size: 15px;
+  font-weight: 300;
+}
+#navbar li a span {
+  position: relative;
+  display: block;
+  
+#navbar li a span:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+#navbar li a:hover {
+  color: #fff;
+}
+#navbar li a:hover span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#navbar li.active a {
+  background: transparent;
+  background: none;
+  color: #fff;
+}
+#navbar li.active a span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+.navbar-brand {
+  float: left;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  padding-left: 0;
+  color: #fff;
+}
+.navbar-fixed-top {
+  position: fixed !important;
+  background: transparent;
+  -webkit-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 0px;
+  top: 0;
+}
+.navbar-fixed-top .navbar-brand {
+  color: #52d3aa;
+}
+.navbar-fixed-top #navbar li a {
+  color: rgba(0, 0, 0, 0.5);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.navbar-fixed-top #navbar li a:hover {
+  color: #52d3aa;
+}
+.navbar-fixed-top #navbar li.active a {
+  background: transparent;
+  background: none;
+  color: #52d3aa;
+}
+.navbar-fixed-top #navbar li.active a span:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  background-color: #52d3aa;
+}
+.navbar-default {
+  border: transparent;
+  background: transparent;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+}
+@media screen and (max-width: 768px) {
+  .navbar-default {
+    margin-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+.navbar-default .brand-slogan {
+  margin: 28px 0 0 15px;
+  float: left;
+  letter-spacing: 2px;
+  color: #adadad;
+}
+.navbar-default .brand-slogan em {
+  color: #52d3aa;
+  font-style: normal;
+}
+a {
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}*/

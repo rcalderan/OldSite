@@ -1,0 +1,73 @@
+﻿<?xml version="1.0"?>
+<noivamodas>
+    <galeria>
+        <foto>
+            <id>1</id>
+            <title>Versalhes 1</title>
+            <alt>Versalhes 1</alt>
+            <src>img/1-thb.jpg</src>
+            <colecao>Versalhes</colecao>
+            <atelie>Via Sposa</atelie>
+            <descricao>tanmaypatil@xyz.com</descricao>
+        </foto>
+        
+        <foto>
+            <id>2</id>
+            <title>Versalhes 2</title>
+            <alt>Versalhes 2</alt>
+            <src>img/2-thb.png</src>
+            <colecao>Versalhes</colecao>
+            <atelie>Via Sposa</atelie>
+            <descricao>tanmaypatil@xyz.com</descricao>
+        </foto>
+        
+        <foto>
+            <id>3</id>
+            <title>Versalhes 3</title>
+            <alt>Versalhes 3</alt>
+            <src>img/3-thb.png</src>
+            <colecao>Versalhes</colecao>
+            <atelie>Via Sposa</atelie>
+            <descricao>tanmaypatil@xyz.com</descricao>
+        </foto>
+        
+    </galeria>
+    <tendencias>
+        <materia>
+            <id>1</id>
+            <type>externo</type>
+            <title>Titulo 1</title>
+            <date>01/01/2017</date>
+            <href>#</href>
+            <img-title>img tittle</img-title>
+            <alt>img alt</alt>
+            <src>img/1-thb.jpg</src>
+            <descricao>Breve descrição da materia 1</descricao>
+        </materia>
+        
+        <materia>
+            <id>2</id>
+            <type>externo</type>
+            <title>Titulo 2</title>
+            <date>11/11/2016</date>
+            <href>#</href>
+            <img-title>img tittle</img-title>
+            <alt>img alt</alt>
+            <src>img/2-thb.png</src>
+            <descricao>Breve descrição da materia 2</descricao>
+        </materia>
+        
+        <materia>
+            <id>3</id>
+            <type>interno</type>
+            <title>Titulo 3</title>
+            <date>3/12/2016</date>
+            <href>#</href>
+            <img-title>img tittle</img-title>
+            <alt>img alt</alt>
+            <src>img/3-thb.png</src>
+            <descricao>Breve descrição da Materia 3</descricao>
+        </materia>
+        
+    </tendencias>
+</noivamodas>
