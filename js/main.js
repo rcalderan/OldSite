@@ -135,11 +135,7 @@
             $('nav').show();
         }
         jQuery.each($('.borda'),function(){ 
-            if (windowWidth > 1100){
-                $(this).removeClass('col-md-1');
-                $(this).addClass('col-md-2');
-            }else
-            if (992 <= windowWidth <= 1100){
+            if (windowWidth >= 992){
                 $(this).removeClass('col-md-2');
                 $(this).addClass('col-md-1');
             }else
@@ -149,11 +145,7 @@
             
         });
         jQuery.each($('.principal'),function(){ 
-            if (windowWidth > 1100){
-                $(this).removeClass('col-md-10');
-                $(this).addClass('col-md-8');
-            }else
-            if (992 <= windowWidth <= 1100){
+            if (windowWidth >= 992){
                 $(this).removeClass('col-md-8');
                 $(this).addClass('col-md-10');
             }else
@@ -187,6 +179,7 @@
         });
         
         //noivo
+        /*
         $noivoffset= $('#noivo-img').offset();
         if($(window).width()<992){
             $('#noivo-enf').css({
@@ -196,7 +189,7 @@
             $('#noivo-enf').css({
                 'margin-left': 0
             });
-        }
+        }*/
         
         var contEnf=$('.cont-enf');
         contEnf.css('margin-left',((contEnf.parent().width()/2)-(contEnf.width())/2)+'px');

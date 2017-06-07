@@ -260,11 +260,13 @@ anm-cont2{
     margin-top: -300px;
 }
 #anm-img1{
-    margin-top: -40px;
+    margin-top: -25px;
     text-align: right;
+    width: 300px;
 }
 #anm-img2{
     margin-top: 15px;
+    width: 320px;
 }
 
 @media (max-width: 991px) {
@@ -510,8 +512,11 @@ anm-cont2{
 #nm-noivos{ 
     background-color: white;
 }
-#noivo-fundo{
-    background-color: #6b6c80;
+#noivo-fundo-img{
+    position: absolute;
+    left: 0px;
+    top:50px;
+    width: 100%;
 }
 #noivo-tit{}
 #noivos-tittle1{
@@ -537,23 +542,31 @@ anm-cont2{
 #noivo-cont{
     color:white;
     text-align: right; 
-    background-color:#6b6c80;
+    background-color:transparent;
 }
 #noivo-link{
     text-align: right; 
     color: #b1bbf0;
 }
 #noivo-enf{
-    position:absolute;}
+    position:absolute;
+    width: 370px;
+    top: 101px;
+    left: -30px;
+}
 #noivo-img{
     z-index:20;
     margin-left: 30px;
     margin-top: -7px;
+    width: 240px;
+}
+#noivo-letra{
+    margin-top: -105px;
+    margin-left: 400px;
 }
 
 @media (max-width: 992px) {
     #nm-noivos{ 
-        background-color: #6b6c80;
     }
     #noivos-tittle1{
         margin-top: 20px;
@@ -573,8 +586,13 @@ anm-cont2{
     
     #noivo-letra{
         margin-top: -35px;
+        margin-left: 0px;
     }
     #noivo-enf{
+        position:absolute;
+        width: 370px;
+        top: 115px;
+        left: 170px;
     }
     #noivo-img{
         margin-left: 0px;
@@ -586,9 +604,7 @@ anm-cont2{
     background-color: white;
     min-height:500px;
 }
-#madrinha-fundo{
-    background-color: #8c8761;    
-}
+
 #madrinha-tit{
     
 }
@@ -617,33 +633,36 @@ anm-cont2{
     margin-right:-10px;
     color:white;
     text-align: right; 
-    background-color:#8c8761;
 }
 #madrinha-cont2{
     text-align: center; 
 }
 
+#madrinha-fundo-img{
+    position: absolute;
+    left: 0px;
+    top:50px;
+    width: 100%;
+}
+
 #madrinha-img{
-    margin-top: -5px;
+    margin-top: -29px;
+    width: 310px;
 }
 #madrinha-enf{
     position:absolute;
-    margin-top: -78px;
-    margin-left: -164px;
+    width: 300px;
+    bottom: 0px;
 }
 #madrinha-link{
     color: #c4be86;
 }
 #madrinha-letra{
-    margin-top: -0px;
+    margin-top: -100px;
 }
 
 @media (max-width: 992px) {
     #nm-madrinhas{
-        background-color: #8c8761;
-    }
-    #madrinha-fundo{
-        background-color: #8c8761;    
     }
     #madrinha-tit{
         text-align:center; 
@@ -670,24 +689,24 @@ anm-cont2{
         margin-right:-10px;
         color:white;
         text-align: right; 
-        background-color:#8c8761;
         padding: 10px;
         border: 2px solid white;
     }
     #madrinha-img{
         margin-top: 0px;
+        width: 310px;
     }
     #madrinha-enf{
         position:absolute;
-        margin-top: 0px;
-        margin-left: 0px;
+        width: 300px;
+        bottom: 0px;
     }
     #madrinha-link{
         margin-top: -2px;
     }
     #madrinha-letra{
-        margin-top: -30px;
-        margin-left: -20px;
+        margin-top: -70px;
+        margin-left: -0px;
     }
 }
 
@@ -711,13 +730,12 @@ anm-cont2{
 }
 #deb-img{
     z-index: 3;
+    margin-top: -70px;
 }
 #deb-cont2{
     color:#ffe0eb;
-    text-align: right; 
+    text-align: justify; 
     background-color:#eb949f;
-    border: 1px solid white;
-    border-radius: 3px;
     padding: 22px;
 }
 #deb-link{
@@ -732,15 +750,14 @@ anm-cont2{
 }
 
 #deb-letra{
-    margin-top: -180px;
+    margin-top: -150px;
 }
 
 @media (max-width: 992px) {
     #nm-debutantes{
-        background-color: #eb949f;
     }
     #deb-tit{
-        margin-left:0px; 
+        margin-left:-300px; 
         text-align:center; 
         color: #eb949f;
         font-weight: bold;
@@ -757,6 +774,7 @@ anm-cont2{
     }
     #deb-img{
         z-index: 3;
+        margin-top: -70px;
     }
     #deb-cont2{
         color:#ffe0eb;
@@ -777,9 +795,10 @@ anm-cont2{
         font-size: 13px;
     }    
     #deb-letra{  
-        margin-top: 0px;
+        margin-top: -300px;
         margin-left: 0px;
-        color: rgba(255, 255, 255, 0.2) !important;
+        font-size: 100px;
+        color: rgba(255, 255, 255, 0.5) !important;
     }
 }
 /****************/
@@ -832,6 +851,9 @@ anm-cont2{
     color: white;
     padding: 15px;
     font-size: 25px;
+}
+#inf-damaepagem-img{
+    margin-bottom: -10px;  
 }
 #inf-enf-cont1{
     position: absolute;
