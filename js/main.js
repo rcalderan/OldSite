@@ -134,6 +134,13 @@
         {
             $('nav').show();
         }
+        if (windowWidth <= 1220){
+            $marginLeft=$('#home-img-principal').css('margin-left');
+            $('#home-img-principal').css({
+                'margin-left': (1190 - windowWidth)+"px"
+            });
+        }
+        
         jQuery.each($('.borda'),function(){ 
             if (windowWidth >= 992){
                 $(this).removeClass('col-md-2');
