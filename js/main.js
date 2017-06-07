@@ -134,10 +134,11 @@
         {
             $('nav').show();
         }
-        if (windowWidth <= 1220){
+        //ajuste foto noiva
+        if (992 < windowWidth <= 1220){
             $marginLeft=$('#home-img-principal').css('margin-left');
             $('#home-img-principal').css({
-                'margin-left': (1190 - windowWidth)+"px"
+                'margin-left': "-"+(1250-windowWidth)+"px"
             });
         }
         
