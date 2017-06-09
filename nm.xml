@@ -3,30 +3,30 @@
     <galeria>
         <foto>
             <id>1</id>
-            <title>Versalhes 1</title>
-            <alt>Versalhes 1</alt>
-            <src>img/1-thb.jpg</src>
-            <colecao>Versalhes</colecao>
+            <title>Dallas 4</title>
+            <alt>img/noiva/dl42.jpg</alt>
+            <src>img/noiva/dl42-tb.jpg</src>
+            <colecao>Dallas</colecao>
             <atelie>Via Sposa</atelie>
             <descricao>tanmaypatil@xyz.com</descricao>
         </foto>
         
         <foto>
             <id>2</id>
-            <title>Versalhes 2</title>
-            <alt>Versalhes 2</alt>
-            <src>img/2-thb.png</src>
-            <colecao>Versalhes</colecao>
+            <title>Dallas 4</title>
+            <alt>img/noiva/dl43.jpg</alt>
+            <src>img/noiva/dl43-tb.jpg</src>
+            <colecao>Dallas</colecao>
             <atelie>Via Sposa</atelie>
             <descricao>tanmaypatil@xyz.com</descricao>
         </foto>
         
         <foto>
             <id>3</id>
-            <title>Versalhes 3</title>
-            <alt>Versalhes 3</alt>
-            <src>img/3-thb.png</src>
-            <colecao>Versalhes</colecao>
+            <title>Dallas 4</title>
+            <alt>img/noiva/dl44.jpg</alt>
+            <src>img/noiva/dl44-tb.jpg</src>
+            <colecao>Dallas</colecao>
             <atelie>Via Sposa</atelie>
             <descricao>tanmaypatil@xyz.com</descricao>
         </foto>

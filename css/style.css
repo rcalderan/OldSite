@@ -296,23 +296,23 @@ anm-cont2{
 
 
 .noiva-img{
-    
+    width: 150px;
+    height: 150px;
 } 
 #noiva_conteiner{
     text-align: right;
     position:absolute;
     z-index:100;
-    margin-right: -45px;
     margin-top: 15px;
     font-size: 20px;
 }
 #noiva_tit{
     margin-top:10px;
-    color: #c2995d;
+    color: #FFF;
 }
 #noiva_subcont1{
     margin-top: 30px;
-    color:#c2995d;
+    color: #FFF;
 }
 #noiva_link{
     background-color: white;
@@ -333,6 +333,9 @@ anm-cont2{
     z-index:20;
     margin-top: 0px;
 }
+#noiva-exemplos{
+  z-index: 20;  
+}
 
 @media (max-width: 991px) {
     
@@ -344,11 +347,9 @@ anm-cont2{
     }
     #noiva_tit{
         margin-top:10px;
-        color: #c2995d;
     }
     #noiva_subcont1{
         margin-top: 30px;
-        color:#c2995d;
     }
     #noiva-fotos{
         margin-left: 100px;
@@ -374,31 +375,19 @@ anm-cont2{
 @media (max-width: 752px) {
     #noiva_conteiner{
         text-align: center;
-        position: relative;
-        z-index:100;
-        font-size: 20px;
     }
     #noiva_tit{
-        margin-top:10px;
-        color: #c2995d;
     }
     #noiva_subcont1{
-        margin-top: 30px;
-        color:#c2995d;
     }
     #noiva-fotos{
-        margin-left: 100px;
     }
     #noiva-foto1{
-        z-index:10;
     }
     #noiva-foto2{
-        z-index:20;
-        margin-top: 0px;
     }
     #noiva_link{
         margin-top: -100px;
-        margin-right: 0px;
         margin-left: -30px;
         z-index: 101;
     }
@@ -424,8 +413,8 @@ anm-cont2{
     color: white;
 }
 #atelie-cont2{
-    margin-top: -45px;
-    margin-left: 40px;
+    margin-top: -40px;
+    margin-left: 35px;
     text-align: justify;
     padding: 10px;
     border: 2px solid white;
@@ -467,7 +456,7 @@ anm-cont2{
     #atelie-cont2{
         text-align: justify;
         max-width: 300px;
-        margin-top: -30px;
+        margin-top: -25px;
     }
     #atelie-link{
         margin-left: 40px;
@@ -869,10 +858,20 @@ anm-cont2{
     background-color: black;
     opacity: .3;
 }
-#inf-cont2{
+#inf-subCont{
     color: white;
+    font-size: 20px;
+    margin-left: 20px;
 }
-
+#inf-letra{
+    margin-top: -80px;
+}
+@media (max-width: 982px) {
+    #inf-letra{
+        margin-top: -80px;
+        font-size: 90px;
+    }
+}
 
 .enf-letra-transp{
     font-family: "Alex Brush";
@@ -953,11 +952,44 @@ anm-cont2{
     border: 1px solid #a3a3a3;
 }
 
+#detalhador{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+    z-index: 25;
+    visibility: hidden;
+}
+#det-ImgPrincipal{
+    background-color: blue;
+    padding: 30px;
+    visibility: hidden;
+}
+#det-img-conteiner{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    visibility: hidden;
+}
+#det-texto-conteiner{
+    background-color: palegreen;
+    width: auto;
+    height: 300px;
+    visibility: hidden;
+}
+
 .to-animate, .to-animate-2,.to-animate-3,.to-animate-4, .single-animate {
   opacity: 0;
 }
+
 /*font-awesome*/
 .fa-facebook-square{
+}
+.fa{
+    color: #010101;
+}
+.fa:hover{
+    color: #c2995d;
 }
 /*boostrap*/
 .thumbnail{

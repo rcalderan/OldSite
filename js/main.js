@@ -1,8 +1,72 @@
 
 ;(function () {
-    if ($(window).width() < 992){
-        $('nav').hide();
+    
+    function ajustesIniciais(){
+        $('#detalhador').hide();
+        $('#nm-tendencias').hide();
+        $('#nm-colecoes').hide();
+        window.onload = function() {
+            $('#noiva-exemplos').css({
+                'height': $('#noiva-foto2').height()+'px'
+            });   
+        };
+        
+        if ($(window).width() < 992){
+            $('nav').hide();
+        }
+        
+        if ( $( window ).width() <= 1220){
+            $marginLeft=$('#home-img-principal').css('margin-left');
+            $('#home-img-principal').css({
+                'margin-left': "-"+(1250-$( window ).width())+"px"
+            });
+        } 
     }
+    
+    
+    $( window ).resize(function() {
+        normalizaEnfeites();
+        //var windowHeight = $(this).height();
+        var windowWidth = $(this).width();
+        if (windowWidth < 992){
+            $('nav').hide();
+            
+        }
+        else
+        {
+            $('nav').show();
+            $marginLeft=$('#home-img-principal').css('margin-left');
+            $('#home-img-principal').css({
+                'margin-left': "-"+(1250-windowWidth)+"px"
+            });
+        }
+        //ajuste foto noiva-home
+        $('#noiva-exemplos').css({
+            'height': $('#noiva-foto2').height()+'px'
+        });
+        
+        jQuery.each($('.borda'),function(){ 
+            if (windowWidth >= 992){
+                $(this).removeClass('col-md-2');
+                $(this).addClass('col-md-1');
+            }else
+            if (windowWidth < 992){
+                $(this).removeClass('col-md-1');
+            }
+            
+        });
+        jQuery.each($('.principal'),function(){ 
+            if (windowWidth >= 992){
+                $(this).removeClass('col-md-8');
+                $(this).addClass('col-md-10');
+            }else
+            if (windowWidth < 992){
+                $(this).removeClass('col-md-10');
+                $(this).addClass('col-md-12');
+            }
+        });
+    });
+    
     /*top click*/
     var goToTop = function() {
         
@@ -121,48 +185,6 @@
         }       
     });
     
-    
-    $( window ).resize(function() {
-        normalizaEnfeites();
-        //var windowHeight = $(this).height();
-        var windowWidth = $(this).width();
-        if (windowWidth < 992){
-            $('nav').hide();
-            
-        }
-        else
-        {
-            $('nav').show();
-        }
-        //ajuste foto noiva
-        if (992 < windowWidth <= 1220){
-            $marginLeft=$('#home-img-principal').css('margin-left');
-            $('#home-img-principal').css({
-                'margin-left': "-"+(1250-windowWidth)+"px"
-            });
-        }
-        
-        jQuery.each($('.borda'),function(){ 
-            if (windowWidth >= 992){
-                $(this).removeClass('col-md-2');
-                $(this).addClass('col-md-1');
-            }else
-            if (windowWidth < 992){
-                $(this).removeClass('col-md-1');
-            }
-            
-        });
-        jQuery.each($('.principal'),function(){ 
-            if (windowWidth >= 992){
-                $(this).removeClass('col-md-8');
-                $(this).addClass('col-md-10');
-            }else
-            if (windowWidth < 992){
-                $(this).removeClass('col-md-10');
-                $(this).addClass('col-md-12');
-            }
-        });
-    });
     function normalizaEnfeites(){
         //top button
         var top = $('#nm-top');
@@ -705,5 +727,6 @@
         
         clickMenu();
         goToTop();
+        ajustesIniciais();
     });
 }());
