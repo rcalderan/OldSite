@@ -21,6 +21,7 @@
                 'margin-left': "-"+(1250-$( window ).width())+"px"
             });
         } 
+        
     }
     
     
@@ -40,11 +41,6 @@
                 'margin-left': "-"+(1250-windowWidth)+"px"
             });
         }
-        //ajuste foto noiva-home
-        $('#noiva-exemplos').css({
-            'height': $('#noiva-foto2').height()+'px'
-        });
-        
         jQuery.each($('.borda'),function(){ 
             if (windowWidth >= 992){
                 $(this).removeClass('col-md-2');
