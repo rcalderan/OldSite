@@ -9,19 +9,21 @@
             $('#noiva-exemplos').css({
                 'height': $('#noiva-foto2').height()+'px'
             });   
+            $('#anm-img3').css({
+                'margin-left': ($windowWidth/2-$('#anm-img3').width()/2)+"px"
+            });
         };
-        
+        $windowWidth = $( window ).width();
         if ($(window).width() < 992){
             $('nav').hide();
         }
         
-        if ( $( window ).width() <= 1220){
+        if ( $windowWidth <= 1220){
             $marginLeft=$('#home-img-principal').css('margin-left');
             $('#home-img-principal').css({
-                'margin-left': "-"+(1250-$( window ).width())+"px"
+                'margin-left': "-"+(1250-$windowWidth)+"px"
             });
         } 
-        
     }
     
     
@@ -41,6 +43,10 @@
                 'margin-left': "-"+(1250-windowWidth)+"px"
             });
         }
+        $('#anm-img3').css({
+            'margin-left': (windowWidth/2-$('#anm-img3').width()/2)+"px"
+        });
+        
         jQuery.each($('.borda'),function(){ 
             if (windowWidth >= 992){
                 $(this).removeClass('col-md-2');
